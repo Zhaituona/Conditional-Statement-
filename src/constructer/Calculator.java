@@ -5,13 +5,16 @@ public class Calculator {
     int b = 13;
     int total = a+ b;
     int num = 13 ;
-    public int add(int a, int b){
-         return  total;
+
+    public int add(int a, int b){// this is return type method
+
+        return  total;
     }
-    public int max(int a , int b){
+    public int max(int a , int b){// this is return type method .
+
         return num;
     }
-    public void displayNameOfCalculator(){
+    public void displayNameOfCalculator(){// this is not return type method
         System.out.println("This is my new calculator");
     }
 
