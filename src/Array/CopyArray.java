@@ -13,6 +13,7 @@ public class CopyArray {
         // three , it will take 3 , that is long of the elemntwe want to copy .
         for (int k = 0; k < newArray.length; k++){
             System.out.println(k + ":" + newArray[k]);
+            // @for loop
         }
     }
 }
