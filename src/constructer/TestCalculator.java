@@ -11,5 +11,16 @@ public class TestCalculator {
         cal.add(12,13);
         System.out.println(cal.add(13,45));// even we reinitialized in here , but it still
         //call class side Variable value .
+
+        Calculator e = new Calculator();
+        //Class a = e.getClass();
+       if( Calculator.class == e.getClass());{// return boolean
+            System.out.println("true");
+        }
+
+
+        System.out.println(e.getClass().getName());
+        // will show the package name and the class name
+        System.out.println(Calculator.class);
     }
 }
